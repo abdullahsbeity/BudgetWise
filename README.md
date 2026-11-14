@@ -1,16 +1,49 @@
-# budgetwise
 
-A new Flutter project.
+# BudgetWise – Personal Budget Planner
 
-## Getting Started
+A Flutter mobile application developed for the CSCI410 Mobile Application Project.
 
-This project is a starting point for a Flutter application.
+## Project Overview
 
-A few resources to get you started if this is your first Flutter project:
+BudgetWise helps users manage their personal finances by tracking income and expenses, organizing transactions into categories, setting budget limits, and reviewing spending statistics.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Main Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Dashboard with income, expenses, and remaining balance.
+- Add and manage income and expense transactions.
+- Categorize transactions.
+- Set monthly budgets for spending categories.
+- Track budget usage and spending limits.
+- View spending statistics.
+
+## Technologies
+
+- Flutter
+- Dart
+- Visual Studio Code
+- Git and GitHub
+
+## Data Handling
+
+This project does not use any database or online storage.
+
+All transaction and budget data is stored temporarily in memory while the application is running. Data is reset when the application closes.
+
+## Project Structure
+
+```text
+lib/
+  main.dart
+  models/
+  screens/
+  widgets/
+  utils/
+```
+
+## Developer
+
+Abdullah Sbeity
+
+## GitHub Repository
+
+https://github.com/abdullahsbeity/BudgetWise
